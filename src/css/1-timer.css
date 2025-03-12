@@ -23,8 +23,14 @@
 
   color: #2e2f42;
 
+  transition: border-color var(--fast-trns);
+
   &:disabled {
     cursor: default;
+  }
+
+  &:hover {
+    border-color: #000;
   }
 }
 
@@ -41,30 +47,16 @@
   font-weight: 500;
   letter-spacing: 0.04em;
 
+  transition: background-color var(--fast-trns);
+
   &:disabled {
-    background: #cfcfcf;
+    background-color: #cfcfcf;
     color: #989898;
     cursor: default;
   }
-}
 
-.timer-container button {
-  padding: 8px 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-
-  border-radius: 8px;
-  background: #4e75ff;
-
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-
-  & .disabled {
-    background: #cfcfcf;
-
-    color: #989898;
+  &:not(:disabled):hover {
+    background: #6c8cff;
   }
 }
 
