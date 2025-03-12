@@ -37,7 +37,7 @@ iziToast.settings({
   transitionOut: 'flipOutX',
 
   iconColor: '#FFF',
-  iconUrl: './img/illegal.svg',
+  iconUrl: '/img/illegal.svg',
 
   close: true,
   position: 'topRight',
