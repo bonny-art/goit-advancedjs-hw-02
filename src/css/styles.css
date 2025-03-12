@@ -5,14 +5,13 @@
   |============================
 */
 /* Common styles */
-@import url('./reset.css');
+@import url('./vars.css');
 @import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+@import url('./card-set.css');
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+/* Pages style */
+/* @import url('./index.css'); */
+/* @import url('./index.css'); */
+@import url('./index.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
