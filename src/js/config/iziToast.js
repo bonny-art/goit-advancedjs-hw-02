@@ -1,7 +1,7 @@
 import iziToast from 'izitoast';
 
 iziToast.settings({
-  timeout: 300000,
+  timeout: 3000,
   transitionIn: 'flipInX',
   transitionOut: 'flipOutX',
 
