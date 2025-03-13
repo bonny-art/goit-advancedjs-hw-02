@@ -9,13 +9,13 @@ const snackbarRefs = {
 
 const iziToastOptions = {
   resolved: {
-    iconUrl: './img/resolved.svg',
+    iconUrl: '/img/resolved.svg',
 
     progressBarColor: '#326101',
     backgroundColor: '#59A10D',
   },
   rejected: {
-    iconUrl: './img/illegal.svg',
+    iconUrl: '/img/illegal.svg',
 
     progressBarColor: '#B51B1B',
     backgroundColor: '#E00000',

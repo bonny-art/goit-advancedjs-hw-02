@@ -17,6 +17,7 @@ iziToast.settings({
   progressBar: true,
 
   progressBarEasing: 'linear',
+  iconUrl: '/img/illegal.svg',
 });
 
 export { iziToast };
