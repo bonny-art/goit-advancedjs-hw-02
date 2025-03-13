@@ -1,7 +1,7 @@
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 
-import iziToast from 'izitoast';
+import { iziToast } from './config/iziToast';
 import 'izitoast/dist/css/iziToast.min.css';
 
 const refs = {
@@ -31,28 +31,13 @@ const flatpickrOptions = {
   },
 };
 
-iziToast.settings({
-  timeout: 3000,
-  transitionIn: 'flipInX',
-  transitionOut: 'flipOutX',
-
-  iconColor: '#FFF',
-  iconUrl: '/img/illegal.svg',
-
-  close: true,
-  position: 'topRight',
-  color: '#FFF',
-  messageColor: '#FFF',
-  messageSize: '16px',
-
-  progressBar: true,
-  progressBarColor: '#B51B1B',
-  progressBarEasing: 'linear',
-  backgroundColor: '#EF4040',
-});
-
 const iziToastOptions = {
   message: 'Please choose a date in the future!',
+
+  iconUrl: '/img/illegal.svg',
+
+  progressBarColor: '#B51B1B',
+  backgroundColor: '#EF4040',
 };
 
 let userSelectedDate;
