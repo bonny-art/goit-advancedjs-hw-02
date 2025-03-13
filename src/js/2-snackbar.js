@@ -40,6 +40,15 @@ const onFormSubmit = evt => {
   const duration = form.elements.delay.value;
   const isFulfilled = form.elements.state.value === FULFILLED;
 
+  console.log('Resolved toast options:', {
+    ...iziToastOptions.resolved,
+    message,
+  });
+  console.log('Rejected toast options:', {
+    ...iziToastOptions.rejected,
+    message,
+  });
+
   promiseRun(duration, isFulfilled)
     .then(message => {
       iziToast.show({ ...iziToastOptions.resolved, message });
