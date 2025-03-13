@@ -34,7 +34,7 @@ const flatpickrOptions = {
 const iziToastOptions = {
   message: 'Please choose a date in the future!',
 
-  // iconUrl: '/img/illegal.svg',
+  iconUrl: '/img/illegal.svg',
 
   progressBarColor: '#B51B1B',
   backgroundColor: '#EF4040',
